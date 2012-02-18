@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F59E41B14EFED7500231C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F59E41A14EFED7500231C76 /* Foundation.framework */; };
+		1F59E42114EFED7500231C76 /* FacebookKitFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F59E42014EFED7500231C76 /* FacebookKitFramework.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F59E41714EFED7500231C76 /* libFacebookKitFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFacebookKitFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F59E41A14EFED7500231C76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F59E41E14EFED7500231C76 /* FacebookKitFramework-Prefix.pch */ = {isa = PBXFileReference; path = "FacebookKitFramework-Prefix.pch"; sourceTree = "<group>"; };
+		1F59E41F14EFED7500231C76 /* FacebookKitFramework.h */ = {isa = PBXFileReference; path = FacebookKitFramework.h; sourceTree = "<group>"; };
+		1F59E42014EFED7500231C76 /* FacebookKitFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookKitFramework.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F59E41414EFED7500231C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F59E41B14EFED7500231C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F59E40C14EFED7500231C76 = {
+			isa = PBXGroup;
+			children = (
+				1F59E41C14EFED7500231C76 /* FacebookKitFramework */,
+				1F59E41914EFED7500231C76 /* Frameworks */,
+				1F59E41814EFED7500231C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F59E41814EFED7500231C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F59E41714EFED7500231C76 /* libFacebookKitFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F59E41914EFED7500231C76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F59E41A14EFED7500231C76 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F59E41C14EFED7500231C76 /* FacebookKitFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1F59E41F14EFED7500231C76 /* FacebookKitFramework.h */,
+				1F59E42014EFED7500231C76 /* FacebookKitFramework.m */,
+				1F59E41D14EFED7500231C76 /* Supporting Files */,
+			);
+			path = FacebookKitFramework;
+			sourceTree = "<group>";
+		};
+		1F59E41D14EFED7500231C76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F59E41E14EFED7500231C76 /* FacebookKitFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F59E41514EFED7500231C76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F59E41614EFED7500231C76 /* FacebookKitFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F59E42414EFED7500231C76 /* Build configuration list for PBXNativeTarget "FacebookKitFramework" */;
+			buildPhases = (
+				1F59E41314EFED7500231C76 /* Sources */,
+				1F59E41414EFED7500231C76 /* Frameworks */,
+				1F59E41514EFED7500231C76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookKitFramework;
+			productName = FacebookKitFramework;
+			productReference = 1F59E41714EFED7500231C76 /* libFacebookKitFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F59E40E14EFED7500231C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1F59E41114EFED7500231C76 /* Build configuration list for PBXProject "FacebookKitFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F59E40C14EFED7500231C76;
+			productRefGroup = 1F59E41814EFED7500231C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F59E41614EFED7500231C76 /* FacebookKitFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F59E41314EFED7500231C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F59E42114EFED7500231C76 /* FacebookKitFramework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F59E42214EFED7500231C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F59E42314EFED7500231C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F59E42514EFED7500231C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FacebookKitFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacebookKitFramework/FacebookKitFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1F59E42614EFED7500231C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FacebookKitFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacebookKitFramework/FacebookKitFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F59E41114EFED7500231C76 /* Build configuration list for PBXProject "FacebookKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F59E42214EFED7500231C76 /* Debug */,
+				1F59E42314EFED7500231C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F59E42414EFED7500231C76 /* Build configuration list for PBXNativeTarget "FacebookKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F59E42514EFED7500231C76 /* Debug */,
+				1F59E42614EFED7500231C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F59E40E14EFED7500231C76 /* Project object */;
+}
