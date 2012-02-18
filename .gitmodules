@@ -1,0 +1,3 @@
+[submodule "FacebookKit"]
+	path = FacebookKit
+	url = git@github.com:dimzzy/FacebookKit.git
