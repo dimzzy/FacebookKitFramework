@@ -38,6 +38,9 @@
 		1F59E44714EFEEEA00231C76 /* FBDialog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F59E42D14EFEDDF00231C76 /* FBDialog.h */; };
 		1F59E44814EFEEEA00231C76 /* FBLoginDialog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F59E42F14EFEDDF00231C76 /* FBLoginDialog.h */; };
 		1F59E44914EFEEEA00231C76 /* FBRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F59E43114EFEDDF00231C76 /* FBRequest.h */; };
+		1F9712DA156BBB1E00B028BF /* FBFrictionlessRequestSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9712D8156BBB1E00B028BF /* FBFrictionlessRequestSettings.h */; };
+		1F9712DB156BBB1E00B028BF /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9712D9156BBB1E00B028BF /* FBFrictionlessRequestSettings.m */; };
+		1F9712DD156BBB5700B028BF /* FBFrictionlessRequestSettings.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F9712D8156BBB1E00B028BF /* FBFrictionlessRequestSettings.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +50,7 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
 			dstSubfolderSpec = 0;
 			files = (
+				1F9712DD156BBB5700B028BF /* FBFrictionlessRequestSettings.h in CopyFiles */,
 				1F59E44514EFEEEA00231C76 /* Facebook.h in CopyFiles */,
 				1F59E44614EFEEEA00231C76 /* FBConnect.h in CopyFiles */,
 				1F59E44714EFEEEA00231C76 /* FBDialog.h in CopyFiles */,
@@ -71,6 +75,8 @@
 		1F59E43014EFEDDF00231C76 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
 		1F59E43114EFEDDF00231C76 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
 		1F59E43214EFEDDF00231C76 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		1F9712D8156BBB1E00B028BF /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		1F9712D9156BBB1E00B028BF /* FBFrictionlessRequestSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFrictionlessRequestSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,13 +131,15 @@
 				1F59E42914EFEDDF00231C76 /* Facebook.h */,
 				1F59E42A14EFEDDF00231C76 /* Facebook.m */,
 				1F59E42B14EFEDDF00231C76 /* FBConnect.h */,
-				1F59E42C14EFEDDF00231C76 /* FBDialog.bundle */,
 				1F59E42D14EFEDDF00231C76 /* FBDialog.h */,
 				1F59E42E14EFEDDF00231C76 /* FBDialog.m */,
 				1F59E42F14EFEDDF00231C76 /* FBLoginDialog.h */,
 				1F59E43014EFEDDF00231C76 /* FBLoginDialog.m */,
 				1F59E43114EFEDDF00231C76 /* FBRequest.h */,
 				1F59E43214EFEDDF00231C76 /* FBRequest.m */,
+				1F9712D8156BBB1E00B028BF /* FBFrictionlessRequestSettings.h */,
+				1F9712D9156BBB1E00B028BF /* FBFrictionlessRequestSettings.m */,
+				1F59E42C14EFEDDF00231C76 /* FBDialog.bundle */,
 			);
 			path = FacebookKit;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 				1F59E43614EFEDDF00231C76 /* FBDialog.h in Headers */,
 				1F59E43814EFEDDF00231C76 /* FBLoginDialog.h in Headers */,
 				1F59E43A14EFEDDF00231C76 /* FBRequest.h in Headers */,
+				1F9712DA156BBB1E00B028BF /* FBFrictionlessRequestSettings.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +244,7 @@
 				1F59E43714EFEDDF00231C76 /* FBDialog.m in Sources */,
 				1F59E43914EFEDDF00231C76 /* FBLoginDialog.m in Sources */,
 				1F59E43B14EFEDDF00231C76 /* FBRequest.m in Sources */,
+				1F9712DB156BBB1E00B028BF /* FBFrictionlessRequestSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
